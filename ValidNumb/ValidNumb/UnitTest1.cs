@@ -14,6 +14,7 @@ namespace ValidNumb
             actual = num.rnd();
             Console.WriteLine(actual);
             Assert.AreEqual(expected, actual % 2);
+            Console.WriteLine("This is work!");
         }
     }
 }
